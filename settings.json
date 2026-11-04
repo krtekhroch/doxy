@@ -1,0 +1,27 @@
+{"key":{"alias":"Key"}
+,"updated":{"alias":"Updated","process":"date"}
+,"issuetype":{"alias":"Type","property":"name","process":"const"}
+,"summary":{"alias":"Summary","process":"complex"}
+,"customfield_28745":{"alias":"Test Status","property":"status","process":"collection"}
+,"status":{"alias":"Issue Status","property":"name"}
+,"assignee":{"alias":"Assignee","property":"emailAddress","process":"username"}
+,"labels":{"alias":"Label","process":"collection"}
+,"customfield_13720":{"alias":"Epic"}
+,"customfield_13249":{"alias":"Company","property":"value"}
+,"customfield_31121":{"alias":"Solution","property":"value"}
+,"priority":{"alias":"Priority","property":"name"}
+,"fixVersions":{"alias":"Fix Version","property":"name","process":"collection"}
+,"description":{"alias":"Description","process":"complex"}
+,"customfield_12345":{"alias":"Test Type","process":"const"}
+,"customfield_12346":{"alias":"Test Category","process":"const"}
+,"customfield_28726":{"alias":"Test Steps","property":"steps","process":"steps"}
+,"customfield_28745":{"alias":"Requirement Status"}
+,"customfield_28737":{"alias":"Tests association","property":"testKey","process":"collection"}
+,"issuelinks":{"alias":"Linked Issues","process":"links"}
+,"customfield_32320":{"alias":"Req ID","process":"number"}
+,"customfield_32322":{"alias":"Req Parent"}
+,"customfield_54023":{"alias":"Global Kear ID"}
+,"reporter":{"alias":"Reporter","property":"name","process":"username"}
+,"project":{"alias":"Project","property":"key","process":"const"}
+,"customfield_23620":{"alias":"Squad","process":"json"}
+}
